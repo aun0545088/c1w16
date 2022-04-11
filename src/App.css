@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 10px;
+  height: 300px;
+  /* border: 1px solid black; */
+}
+.container > div{
+  height: 300px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.conFlx{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.disc{
+  text-align: left;
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+}

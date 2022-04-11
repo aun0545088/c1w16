@@ -6,7 +6,7 @@ const CartButton = () => {
   {/* add to cart button */}
   {/* count with - and  + button */}
   <div>
-      <button>-</button>
+      <button style={{color:"white", backgroundColor:"#006FD0", border:"none"}}>Add to Cart</button>
       {/* <p className="count-item">{count}</p> */}
       <button>+</button>
   </div>
